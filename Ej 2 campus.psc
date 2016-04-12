@@ -1,0 +1,36 @@
+Proceso Cajero_automatico
+	Escribir "Ingrese dinero";
+	Leer Dinero;
+	CantBilletes20000 <- trunc (Dinero / 20000);
+	Resto <- Dinero % 20000;
+	CantBilletes10000 <- trunc (Resto / 10000);
+	Resto2 <- Resto % 10000;
+	CantBilletes5000 <- trunc (Resto2 / 5000);
+	Resto3 <- Resto2 % 5000;
+	CantBilletes2000 <- trunc (Resto3 / 2000);
+	Resto4 <- Resto3 % 2000;
+	CantBilletes1000 <- trunc (Resto4 / 1000);
+	Resto5 <- Resto4 % 1000;
+	CantMonedas500 <- trunc (Resto5 / 500);
+	Resto6 <- Resto5 % 500;
+	CantMonedas100 <- trunc (Resto6 / 100);
+	Resto7 <- Resto6 % 100;
+	CantMonedas50 <- trunc (Resto7 / 50);
+	Resto8 <- Resto7 % 50;
+	CantMonedas10 <- trunc (Resto8 / 10);
+	Resto9 <- Resto8 % 10;
+	CantMonedas5 <- trunc (Resto9 / 5);
+	Resto10 <- Resto9 % 5;
+	CantMonedas1 <- Resto10;
+	Escribir "Cantidad de billetes de 20000: ", CantBilletes20000;
+	Escribir "Cantidad de billetes de 10000: ", CantBilletes10000;
+	Escribir "Cantidad de billetes de 5000: ", CantBilletes5000;
+	Escribir "Cantidad de billetes de 2000: ", CantBilletes2000;
+	Escribir "Cantidad de billetes de 1000: ", CantBilletes1000;
+	Escribir "Cantidad de monedas de 500: ", CantMonedas500;
+	Escribir "Cantidad de monedas de 100: ", CantMonedas100;
+	Escribir "Cantidad de monedas de 50: ", CantMonedas50;
+	Escribir "Cantidad de monedas de 10: ", CantMonedas10;
+	Escribir "Cantidad de monedas de 5: ", CantMonedas5;
+	Escribir "Cantidad de monedas de 1: ", CantMonedas1;
+FinProceso
