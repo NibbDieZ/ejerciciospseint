@@ -10,7 +10,7 @@ Proceso profesor
 	Escribir "Ingrese cantidad de alumnos";
 	Leer x;
 	Repetir
-		Escribir "Alumno Nº ", alum + 1;
+		Escribir "Alumno NÂº ", alum + 1;
 		cant_notas <- 0;
 		Repetir
 			Escribir "Ingrese nota ", cant_notas + 1, ":";
